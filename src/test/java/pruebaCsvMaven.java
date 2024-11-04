@@ -7,17 +7,17 @@ public class pruebaCsvMaven {
 
     @Test
     public void testGetRecommendationSunnyAndWarm() {
-        assertEquals("Perfecto para hacer un picnic", Main.WeatherApp.getRecommendation(25, "soleado"));
+        assertEquals("Perfecto para hacer un picnic", WeatherApp.getRecommendation(25, "soleado"));
     }
 
     @Test
     public void testGetRecommendationColdAndRainy() {
-        assertEquals("Abrígate y lleva paraguas", Main.WeatherApp.getRecommendation(5, "lluvioso"));
+        assertEquals("Abrígate y lleva paraguas", WeatherApp.getRecommendation(5, "lluvioso"));
     }
 
     @Test
     public void testGetRecommendationHotAndSunny() {
-        assertEquals("Lleva gorra y protector solar", Main.WeatherApp.getRecommendation(30, "soleado"));
+        assertEquals("Lleva gorra y protector solar", WeatherApp.getRecommendation(30, "soleado"));
     }
 }
 

@@ -1,5 +1,5 @@
 package org.pruebaCsvMaven;
 
-public class Main {
+public class pruebaCsvMaven {
 
 }
